@@ -1,0 +1,9 @@
+server:
+  port: 9001
+
+# 配置Hystrix Metrics Stream
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
